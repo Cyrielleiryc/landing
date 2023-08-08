@@ -1,0 +1,67 @@
+.banner {
+  background-image: url('../../images/background.png');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.section {
+width: 900px;
+margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+    margin: auto;
+  }
+  .section {
+  width: 700px;
+  margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin: auto;
+  }
+  .section {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+    margin: auto;
+  }
+  .section {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+.banner h1 {
+  color: white;
+  font-weight: bolder;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+
+
+.section h2 {
+  text-align: center;
+}
